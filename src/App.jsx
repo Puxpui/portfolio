@@ -17,7 +17,7 @@ function App() {
       <div className='font-dcscrip bg-gradient-to-l from-[#f0f8ff] to-[#ffffff]'>
         <div className='flex justify-end'>
           <img
-            className='absolute w-[250px] rounded-full mr-[100px] mt-[50px] opacity-75'
+            className='absolute w-[250px] rounded-full mr-[100px] mt-[50px] select-none opacity-75'
             src="https://i.imgur.com/t1xe1P9.png"
             alt=""
             draggable="false"
@@ -36,7 +36,7 @@ function App() {
           <div className='ml-[100px] text-xl font-semibold text-[#666666]'>Student of Digital Business Technology</div>
         </MyMotion>
         <MyMotion direction="up" delay={0.2}>
-          <div className='ml-[100px] mt-[15px] flex w-[125px] gap-2'>
+          <div className='ml-[100px] mt-[15px] flex w-[125px] gap-2 select-none'>
             <a href="https://github.com/Puxpui" target="_blank">
               <img draggable="false" src="https://i.imgur.com/CxlFent.png" />
             </a>
