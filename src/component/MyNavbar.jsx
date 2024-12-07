@@ -16,7 +16,7 @@ function MyNavbar() {
 
   return (
     <div className="text-black font-dcscrip sticky top-0 z-10 bg-white select-none">
-      <div className="flex absolute p-[12px] ml-2 text-[25px] font-semibold" onClick={() => scrollToSection('home')}>Puxpui</div>
+      <div className="flex absolute p-[12px] bg-white rounded-full ml-2 text-[25px] font-semibold" onClick={() => scrollToSection('home')}>Puxpui</div>
       <div className="flex justify-end">
         <div className="md:hidden m-4 absolute" onClick={toggleMenu}>
           <button id="menu-toggle" className="text-black">
